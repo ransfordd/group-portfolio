@@ -72,7 +72,7 @@ portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/ransfordd/group-portfolio/
    ```
 
 2. Navigate to the project directory:
@@ -125,4 +125,16 @@ For any inquiries or suggestions, please contact:
 
 - Font Awesome for icons
 - Google Fonts for typography
-- Unsplash for stock images 
+- Unsplash for stock images
+
+
+Group Members
+Samuel	Mwangi
+Vivienne	Kawira
+Johnwilly Gathu
+Sylvine	Kemboi
+George	Ceasar
+Daisy	gichungu	
+Ransford	Frimpong
+Sharon	Saka
+Ayomide	Jegede
