@@ -1,0 +1,752 @@
+/* Custom font face declaration for Londrina Outline font */
+@font-face {
+    font-family: 'londrina-outline';
+    src: url('fonts/Londrina_Outline/LondrinaOutline-Regular.ttf');
+}
+
+/* Base styles for the entire document */
+body, html {
+    margin: 0;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+/* Default link styles */
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Default button styles */
+button {
+    cursor: pointer;
+}
+
+/* Hero section styles with dark background */
+.first-display {
+    background-color: rgba(3, 31, 19, 1);
+    position: relative;
+    color: white;
+    height: 550px;
+}
+
+/* Background image overlay with low opacity */
+.backgroung-image {
+    position: absolute;
+    opacity: 0.05;
+    background-image: url(images/background-image.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+/* Main content container with centered layout */
+.content {
+    position: relative;
+    padding: 20px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Header navigation styles with flexbox layout */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Company logo container */
+.company-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Company logo image dimensions */
+.company-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Company name styling */
+.company-icon h3 {
+    font-weight: 900;
+}
+
+/* Navigation links container */
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation link styles */
+.nav-links a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* Dropdown arrow icon */
+.drop-down {
+    display: inline-block;
+    width: 10px;
+    margin-left: 1px;
+}
+
+/* Hire button styles */
+.h-button {
+    background-color: #2f9a6c;
+    border: none;
+    padding: 8px;
+    width: 80px;
+    border-radius: 15px;
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+
+/* Hire button hover effect */
+.h-button:hover {
+    background-color: #2f986a34;
+    border: 1px white solid;
+}
+
+/* Hire button link alignment */
+.h-button a {
+    margin: 0 auto;
+}
+
+/* Header icon buttons */
+.header-icon {
+    width: 35px;
+    height: 25px;
+    margin-left: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* Header icon images */
+.header-icon img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+/* Hero content section layout */
+.header-about {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero text content width */
+.header-about-info {
+    width: 65%;
+}
+
+/* Hero title with custom font */
+.header-about-info h1 {
+    font-weight: 400;
+    font-family: 'londrina-outline', sans-serif;
+    font-style: normal;
+    font-size: 105px;
+    margin: -20px 0;
+}
+
+/* Hero subtitle */
+.header-about-info h2 {
+    font-weight: 900;
+}
+
+/* Hero description text */
+.header-about-info p {
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+/* Hero section buttons container */
+.header-about-info-buttons button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 5px;
+    color: white;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+
+/* Hire button in hero section */
+.hire {
+    background-color: rgb(47, 154, 108);
+    border: none;
+}
+
+/* Hire button hover effect */
+.hire:hover {
+    background-color: #2f986a34;
+    border: 1px white solid;
+}
+
+/* Portfolio button in hero section */
+.portfolio {
+    background-color: #2f986a34;
+    border: 1px white solid;
+}
+
+/* Portfolio button hover effect */
+.portfolio:hover {
+    background-color: rgb(47, 154, 108);
+    border: none;
+}
+
+/* Hero section image container */
+.header-about-img {
+    width: 30%;
+    height: 430px;
+}
+
+/* Hero section image */
+.header-about-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Biography section styles */
+.biography {
+    padding: 100px 0;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Biography image container */
+.biog-image {
+    border-radius: 5px;
+    width: 35%;
+    height: 470px;
+}
+
+/* Biography image */
+.biog-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Biography information container */
+.biog-info {
+    width: 60%;
+    color: gray;
+    padding: 0;
+    margin-top: -5px;
+}
+
+/* Biography title */
+.biog-info h2 {
+    font-size: 30px;
+    color: black;
+    margin: 15px 0;
+}
+
+/* Biography subtitle */
+.biog-info h4 {
+    margin-bottom: -14px;
+    font-size: 15px;
+}
+
+/* Biography description */
+.biog-info p {
+    font-size: 12px;
+    width: 80%;
+}
+
+/* Decorative line separator */
+.line {
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(222, 221, 221);
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+/* Personal information grid container */
+.personal-info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0;
+}
+
+/* Individual personal info item */
+.personal-info {
+    margin-bottom: -20px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Personal info text */
+.personal-info p {
+    margin-left: 6px;
+}
+
+/* Personal info label */
+.personal-info h5 {
+    color: black;
+}
+
+/* Social media links container */
+.personal-info-socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 42%;
+}
+
+/* Social media icons container */
+.follow-socials {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    justify-content: space-between;
+}
+
+/* Social media links */
+.follow-socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Social media icons */
+.follow-socials img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Social media section title */
+.personal-info-socials h3 {
+    font-size: 15px;
+    color: black;
+}
+
+/* Action buttons container */
+.personal-info-buttons {
+    display: flex;
+    gap: 10px;
+
+}
+
+.personal-info-buttons button{
+    
+    border: none;
+    padding: 9px 15px;
+    color: white;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+/* Hire me button */
+.hire-me {
+    background-color: #2f9a6c;
+}
+
+/* Hire me button hover effect */
+.hire-me:hover {
+    background-color: rgb(62, 173, 47);
+}
+
+/* CV download button */
+.cv {
+    background-color: rgb(62, 173, 47);
+    margin-left: 10px;
+}
+
+/* CV download button hover effect */
+.cv:hover {
+    background-color: #2f9a6c;
+}
+
+/* Services section container */
+.services-container {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 70px 10px;
+}
+
+/* Services section title */
+.services-container h2 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+/* Services cards container */
+.cards {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* Individual service card */
+.each-card {
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgb(239, 239, 239);
+}
+
+/* Service card icon */
+.each-card img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Service card title */
+.each-card h4 {
+    margin: 0;
+    margin-top: 9px;
+}
+
+/* Service card description */
+.each-card p {
+    color: gray;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* More services link */
+.services-container a {
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(47, 154, 108);
+}
+
+/* Skills section image container */
+.skills-image {
+    width: 41%;
+    height: 450px;
+    border-radius: 4px;
+}
+
+/* Skills section image */
+.skills-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* Skills information container */
+.skills-container {
+    width: 53.5%;
+}
+
+/* Skills section title */
+.skills-container h2 {
+    font-size: 30px;
+    margin: 12px 0;
+}
+
+/* Skills section subtitle */
+.skills-container h6 {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+/* Skills section description */
+.skills-container p {
+    color: gray;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Skills progress bars container */
+.bars-container {
+    margin-top: 30px;
+}
+
+/* Skill title */
+.skill h4 {
+    color: gray;
+}
+
+/* Horizontal Progress bar */
+.progress-container {
+    width: 100%; 
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px; 
+    overflow: hidden;
+    margin-bottom: 8px;
+    margin-top: -16px;
+}
+
+/* Progress bar */
+.progress-bar {
+    width: 50%; 
+    height: 5px; 
+    background-color: rgb(47, 154, 108);
+    text-align: center;
+    line-height: 10px; 
+    font-size: 10px;
+    font-weight: 900;
+    border-radius: 5px;
+    transition: width 0.5s;
+}
+
+/* Additional services section */
+.servicces {
+    background-color: whitesmoke;
+}
+
+/* Service cards container */
+.service-div {
+    padding: 100px 20px;
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Service cards grid */
+.service-card-container {
+    width: 57%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 35px;
+}
+
+/* Individual service card */
+.service-card {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+}
+
+/* Service card icon */
+.service-card img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Service card content */
+.service-card div {
+    margin-top: -3px;
+}
+
+/* Service card title */
+.service-card div h4 {
+    margin: 0;
+    font-weight: 300;
+    color: black;
+    font-size: 19px;
+}
+
+/* Service card description */
+.service-card div p {
+    color: gray;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Service section image container */
+.service-image {
+    width: 30%;
+    height: 450px;
+}
+
+/* Service section image */
+.service-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Work rates section */
+.work-rates-section {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    padding: 60px 0;
+    justify-content: space-between;
+}
+
+/* Rates container */
+.rates {
+    text-align: center;
+}
+
+/* Rate item text */
+.rates p {
+    color: gray;
+}
+
+/* Success work section */
+.success-work-section {
+    background-color: whitesmoke;
+    padding: 80px 0;
+}
+
+/* Success work container */
+.success-work-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Success work image container */
+.success-work-image-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+/* Success work image */
+.success-work-image {
+    height: 170px;
+    border-radius: 2px;
+}
+
+/* Success work image */
+.success-work-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+/* Last section container */
+.last-section-container {
+    background-color: #2f9a6c;
+    height: 150px;
+}
+
+/* Last section */
+.last-section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+/* Last section images */
+.last-section img {
+    width: 200px;  
+}
+
+/* Before footer section */
+.before-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 11, 27);
+    align-items: center;
+    color: white;
+    padding: 60px 0;
+}
+
+/* Company icons container */
+.company-icons {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+}
+
+/* Company icon */
+.company-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Company name */
+.company-icons h3 {
+    font-size: 30px;
+}
+
+/* Contacts section */
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 46%;
+}
+
+/* Contact container */
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Contact text */
+.contact-container p {
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+/* Contacts image */
+.contacts-image {
+    width: 25px;
+    height: 25px;
+}
+
+/* Footer section */
+footer {
+    margin-top: -16px;
+    background-color: rgb(5, 7, 16);
+    padding: 10px 0;
+}
+
+/* Footer content */
+.footer-content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+/* Sample socials container */
+.sample-socials {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+/* Sample socials image container */
+.sample-socials-image-container {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(9, 11, 27);
+    overflow: hidden; 
+    border-radius: 50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+/* Sample socials image container hover effect */
+.sample-socials-image-container:hover {  
+    box-shadow: 0px 0px 5px 4px rgb(18, 167, 209, 0.678);
+}
+
+/* Sample socials images */
+.sample-socials-image-container img {
+    width: 50%;
+    height: 80%;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+}
