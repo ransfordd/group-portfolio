@@ -128,13 +128,13 @@ For any inquiries or suggestions, please contact:
 - Unsplash for stock images
 
 
-Group Members
-Samuel	Mwangi
-Vivienne	Kawira
-Johnwilly Gathu
-Sylvine	Kemboi
-George	Ceasar
-Daisy	gichungu	
-Ransford	Frimpong
-Sharon	Saka
-Ayomide	Jegede
+## Group Members
+- Samuel	Mwangi
+- Vivienne	Kawira
+- Johnwilly Gathu
+- Sylvine	Kemboi
+- George	Ceasar
+- Daisy	gichungu	
+- Ransford	Frimpong
+- Sharon	Saka
+- Ayomide	Jegede
